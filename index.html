@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Walden ZERO</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre</a>
+            <a href="contact.html">Contato</a>
+            <a href="shop.html">Compra</a>
+            <a href="previa.html">Previa</a>
+        </nav>
+    </header>
+    <main>
+        <section class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="images/slide1.jpg" alt="Imagem 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide2.jpg" alt="Imagem 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide3.jpg" alt="Imagem 3">
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="book-highlight">
+            <div class="container">
+                <h2>Descubra o Terror Psicológico</h2>
+                <p>Prepare-se para uma jornada aterrorizante com <strong>Nome do Livro</strong>. Mergulhe em uma trama envolvente e assustadora que desafia a mente e deixa o coração acelerado.</p>
+                <button onclick="window.location.href='shop.html'">Comprar Agora</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nome do Autor</p>
+            <p><a href="contact.html">Contato</a> | <a href="privacy.html">Política de Privacidade</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
