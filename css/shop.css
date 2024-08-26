@@ -1,0 +1,81 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+.container-livro{
+	display: flex; /* Habilita o layout Flexbox */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Centraliza horizontalmente os itens dentro do contêiner */
+    width: 80%; /* Ajuste conforme necessário */
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente na página */
+    padding: 20px; /* Adiciona espaço interno, opcional */
+
+	
+}
+main {
+    padding: 10rem;
+	margin: 10px;
+    gap: 1rem;
+	
+	width: 80%; /* Define a largura da seção principal */
+    max-width: 800px; /* Define a largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona algum espaço interno */
+    background-color: #fff; /* Cor de fundo para destacar a seção */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para um efeito de destaque */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.intro, .presence, .void, .appearance, .smile, .voice, .conclusion {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 0.5rem;
+}
