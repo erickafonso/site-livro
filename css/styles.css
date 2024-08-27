@@ -5,6 +5,7 @@ body {
     font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
+    margin-bottom:50px;
 }
 
 h2{
@@ -105,7 +106,7 @@ button.next {
 }
 
 .book-highlight button {
-    background-color: #e74c3c;
+    background-color: #ff0000;
     color: #fff;
     border: none;
     padding: 0.5rem 1.5rem;
@@ -116,14 +117,18 @@ button.next {
 }
 
 .book-highlight button:hover {
-    background-color: #c0392b;
+    background-color: #242424;
 }
 
 footer {
     background-color: #333;
     color: #fff;
+    bottom: 0px;
     text-align: center;
     padding: 1rem 0;
+    position: fixed;
+    
+    width: 100%;
 }
 
 footer a {
@@ -176,6 +181,8 @@ button {
 button:hover {
     background-color: #242424;
 }
+
+
 
 img {
     max-width: 100%;

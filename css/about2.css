@@ -23,7 +23,9 @@ header h1 {
 header h2 {
     margin: 10px 0;
 }
-
+#sessionbot{
+margin-bottom: 100px;
+}
 .hero {
     text-align: center;
     padding: 20px;
@@ -97,22 +99,3 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #242424;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #222;
-    color: #fff;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
